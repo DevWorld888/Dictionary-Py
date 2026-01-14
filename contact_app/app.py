@@ -21,3 +21,6 @@ def main():
             break
         else:
             print("Opción no válida. Por favor, intente de nuevo.")
+
+if __name__ == "__main__":
+    main()
