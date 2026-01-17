@@ -17,6 +17,9 @@ def main():
             from services.delete_contact import delete_contact_by_name
             delete_contact_by_name()
         elif choice == '5':
+            from services.edit_contact import editar_contacto
+            editar_contacto()
+        elif choice == '6':
             print("Saliendo de la aplicación.")
             break
         else:
